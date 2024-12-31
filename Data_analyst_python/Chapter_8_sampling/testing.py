@@ -1,13 +1,16 @@
+"""Testing document for format and linting"""
+
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-variable = 10
-variable_test = 20
-VariableCase = 3
+coffee_rating = pd.read_feather('datasets/coffee_ratings_full (1).feather')
+spotify_pop = pd.read_feather('datasets/coffee_ratings_full (1).feather')
 
-"""  docstring """
+
+CONSTANTE = 2
+constante_rota = 3
+super_constante = 'hola'
+no_se_queMas = 'mundo'
+pop_mean = spotify_pop['popularity'].mean()
 
 
 def calculator():
